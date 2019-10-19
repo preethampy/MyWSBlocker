@@ -3,13 +3,13 @@ This is a simple project that blocks the website's from a list we provide betwee
 ## Before you import/Download/clone
 * Running the siteblocker.py file directly will give you an error because the code we have written works with OS file called 'hosts' file.To block and unblock any website, first we need to make changes in this file and that changes will be done programmatically by our python script.So run the command prompt as administrator and execute siteblocker.py file.
 * If you want this file/script to continuosly block the websites as per our wriiten program & without intteruption (like after restart,after power up,after shut down)follow the below steps
-1)On windows OS,Search for task scheduler in search box.
-2)Click on create task and give it a name.
-3)Check "Run with highest privileges"
-4)Click on trigger > new > at dropdown select "At start up" > ok
-5)Click on action > new > Browse to the project directory and select the siteblocker.pyw > ok
-6)Click on conditions > uncheck "power" section and ok or apply
-7)Restart the computer and you are done 
+1. On windows OS,Search for task scheduler in search box.
+2. Click on create task and give it a name.
+3. Check "Run with highest privileges"
+4. Click on trigger > new > at dropdown select "At start up" > ok
+5. Click on action > new > Browse to the project directory and select the siteblocker.pyw > ok
+6. Click on conditions > uncheck "power" section and ok or apply
+7. Restart the computer and you are done 
 ## Troubleshooting
 * If the websites in the list are not getting blocked,then please run the script through command prompt as administrator again
 or if you already did that,then wait for sometime in the brower till it reads the hosts file or just restart your browser just once and it should work normal.
